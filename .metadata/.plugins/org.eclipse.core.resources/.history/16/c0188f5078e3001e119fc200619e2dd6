@@ -1,0 +1,23 @@
+package com.sathya.Spring;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Doctor {
+	
+	private int id;
+	private String name;
+	@Autowired
+	public Doctor(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	
+	public void doctorInfo() {
+		System.out.println("Doctor id :"+id);
+		System.out.println("Doctor name :"+name);
+	}
+
+}

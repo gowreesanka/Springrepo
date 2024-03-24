@@ -1,0 +1,5 @@
+package cEom.sathya.lombok;
+
+public class Employee {
+
+}

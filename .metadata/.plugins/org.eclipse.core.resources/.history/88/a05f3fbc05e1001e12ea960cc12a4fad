@@ -1,0 +1,5 @@
+package com.sathya.sprig;
+
+public class GreetingImpl {
+
+}

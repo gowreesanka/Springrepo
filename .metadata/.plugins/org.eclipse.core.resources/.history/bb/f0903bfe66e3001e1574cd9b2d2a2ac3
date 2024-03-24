@@ -1,0 +1,9 @@
+package com.sathya.Spring;
+
+public class HomeLoanService {
+	
+	public void loanInfo() {
+		
+	}
+
+}

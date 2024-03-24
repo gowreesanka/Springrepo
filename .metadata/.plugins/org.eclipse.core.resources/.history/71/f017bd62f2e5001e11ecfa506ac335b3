@@ -1,0 +1,11 @@
+package com.sathya.lombok;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Employee employee=new Employee(111, "sankar", 111.0);
+		System.out.println(employee);
+
+	}
+
+}

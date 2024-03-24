@@ -1,0 +1,11 @@
+package com.sathya.Spring;
+
+public class JavaCourseService implements CourseService{
+
+	@Override
+	public void CourseInfo() {
+		System.out.println("----");
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.sathya.Spring;
+
+public class RealStateService {
+	public void realStateInfo() {
+		
+	}
+
+}

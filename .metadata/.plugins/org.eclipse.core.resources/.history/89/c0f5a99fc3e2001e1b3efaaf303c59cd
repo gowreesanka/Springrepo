@@ -1,0 +1,31 @@
+package com.sathya.Spring;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+@Component
+@Configuration
+public class JavaConfig {
+	
+	
+	
+	
+	
+	@Bean
+	public EmailService emailService() {
+		EmailService emailService=new EmailService();
+		return emailService;
+	}
+	
+	@Bean
+	public Student student() {
+		Student student=new Student();
+		student.setEmailService(emailService());
+		
+		
+		
+		return student;
+		
+	}
+
+}

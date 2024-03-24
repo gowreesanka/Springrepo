@@ -1,0 +1,18 @@
+package com.sathya.Spring;
+
+public class Person {
+	private HomeLoanService homeLoanService;
+	private RealStateService realStateService;
+	public Person(HomeLoanService homeLoanService, RealStateService realStateService) {
+		super();
+		this.homeLoanService = homeLoanService;
+		this.realStateService = realStateService;
+	}
+	
+	public void details() {
+		
+		homeLoanService.loanInfo();
+		realStateService.realStateInfo();
+	}
+
+}

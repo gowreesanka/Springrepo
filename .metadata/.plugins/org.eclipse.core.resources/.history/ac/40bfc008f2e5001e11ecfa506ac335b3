@@ -1,0 +1,21 @@
+package com.sathya.lombok;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+import lombok.experimental.NonFinal;
+
+@Setter
+@Getter
+@NonFinal
+
+@AllArgsConstructor
+@ToString
+public class Employee {
+	
+	private int empId;
+	private String empName;
+	private double empSalary;
+
+}
